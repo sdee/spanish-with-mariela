@@ -1,4 +1,5 @@
 import Head from 'next/head'
+import {Calendly} from '../components/Calendly'
 
 export default function Home() {
   return (
@@ -21,6 +22,7 @@ export default function Home() {
           <p class="mt-4 text-xl text-gray-500 leading-8">Let's enjoy our classes together by doing it very interactively-talking, discussing pictures, reading, and listening to music.</p>
         </div>
       </div>
+      <Calendly />
     </div>
   )
 };
